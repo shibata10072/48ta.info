@@ -3,6 +3,9 @@ languageCode = "ja_JP"
 title = "48TA.INFO"
 theme = "keepit"
 
+publishDir = "docs"
+canonifyurls = true
+
 paginate = 10
 enableEmoji = true
 enableRobotsTXT = true
