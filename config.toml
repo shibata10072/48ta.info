@@ -9,7 +9,7 @@ canonifyurls = true
 paginate = 10
 enableEmoji = true
 enableRobotsTXT = true
-googleAnalytics = ""
+googleAnalytics = "UA-139630213-1"
 disqusShortname = ""
 
 [sitemap]
