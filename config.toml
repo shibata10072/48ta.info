@@ -1,0 +1,88 @@
+baseURL = "http://48ta.info/"
+languageCode = "ja_JP"
+title = "48TA.INFO"
+theme = "keepit"
+
+paginate = 10
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+disqusShortname = ""
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = false
+  noreferrerLinks = false
+
+[Permalinks]
+  posts = "/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
+[params]
+    since = 2016
+    author = "柴田"               # Author's name
+    subtitle = "スラム街出身"       # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+
+    google_verification = ""
+    bing_verification = ""
+    yandex_verification = ""
+    pinterest_verification = ""
+    baidu_verification = ""
+
+    avatar = "icon.png" #comment it to use gravatar
+    socialShare = true
+
+    description = "IT業界で一番必要な能力は根性" # site description
+    keywords = "48TA 48TA.info 柴田 shibata" # site keywords
+    license= ''
+
+[params.gravatar]
+    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+
+[params.social]
+    GitHub = "shibata10072"
+    Twitter = "shibata0321"
+    Email   = "bz@48ta.info"
+    #Linkedin = "xxxx"
+
+[params.share]
+Twitter = true
+Facebook = true
+#Reddit = true
+#Linkedin = true
+
+# Used only for Seo schema
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+[author]
+  name = "柴田 - shibata"
+
+  [params.publisher]
+    name = "柴田 - shibata"
+
+    [params.publisher.logo]
+      url = "logo.png"
+      width = 127
+      height = 40
+
+  [params.logo]
+    url = "logo.png"
+    width = 127
+    height = 40
+
+  [params.image]
+    url = "cover.png"
+    width = 800
+    height = 600
