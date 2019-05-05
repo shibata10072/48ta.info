@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Manjaro Gnome環境をつくった</title>
+      <title>Manjaro Gnome環境の構築</title>
       <link>https://48ta.info/posts/manjaro-gnome-2019/</link>
       <pubDate>Sat, 04 May 2019 13:13:04 +0900</pubDate>
       
       <guid>https://48ta.info/posts/manjaro-gnome-2019/</guid>
-      <description>やったこと  使ってない SSD フォーマット。 Manjaro Gnome Editionをインストール。 Manjaro Setting Tool と Gnome の設定ツールを使ってなんか色々整える。 Gnome Shell Extensionsで足りない機能ぶっこむ。 Pacman で適当にパッケージを突っ込む。  使ってるやつ Gnome Shell Extensions  Activities Configurator  アクティビティ非表示と Topbar 透明化。  Applications menu  Arc Menu でもいいんだけど、アプリ一覧だけあればいいからこっち。  Coverflow alt-tab  AltTab がオシャレになる。  Dash to Dock Workspace to dock  ど定番定期。  Kstatusnotifieritem/appindicator support Topicons plus  Topbar に通知追加。  openweather  天気予報。  Pamac update indicator  パッケージ更新通知。  Native window placement Removable drive menu User theme  Gnome Theme  Window Theme:Qogir Shell Theme:Qogir Icon:Papirus  どれも小洒落ててかっこいい、時代は変わったんやなって。</description>
+      <description>やったこと  使ってない SSD フォーマット。 Manjaro Gnome Editionをインストール。 Manjaro Setting Tool と Gnome の設定ツールを使ってなんか色々整える。 Gnome Shell Extensionsで足りない機能ぶっこむ。 Pacman で適当にパッケージを突っ込む。  使ってるやつ Gnome Shell Extensions  Activities Configurator  アクティビティ非表示と Topbar 透明化。  Applications menu  アプリ一覧。Arc Menu ほど機能はいらない。  Coverflow alt-tab  AltTab がオシャレになる。  Dash to Dock Workspace to dock  ど定番２種。  Kstatusnotifieritem/appindicator support Topicons plus  Topbar に通知追加。  openweather  天気予報。  Pamac update indicator  パッケージ更新通知。  Native window placement Removable drive menu User theme  Gnome Theme  Window Theme:Qogir Shell Theme:Qogir Icon:Papirus  所感 Arch or Manjaro,Gnome or deepin いつも Arch を使っていたのですが、アップデートで Network Manager、X Window、Linux Kernel のどれかがぶっ壊れる感じに疲れたので、安定する Manjaro にしてみました。 インストール馬鹿楽だし、最初から Pamac 入ってるし、Manjaro がよく使われる理由が少しわかったような気がします。</description>
     </item>
     
   </channel>
