@@ -4,6 +4,34 @@
     <url>
       <loc>https://48ta.info/</loc>
       
+      <lastmod>2019-05-04T13:13:04+09:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://48ta.info/posts/manjaro-gnome-2019/</loc>
+      
+      <lastmod>2019-05-04T13:13:04+09:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0.5</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://48ta.info/posts/</loc>
+      
+      <lastmod>2019-05-04T13:13:04+09:00</lastmod>
+      
       
       
       <priority>0</priority>

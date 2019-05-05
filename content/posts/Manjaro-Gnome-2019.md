@@ -1,7 +1,7 @@
 ---
 title: "Manjaro Gnome環境をつくった"
 date: 2019-05-04T13:13:04+09:00
-draft: true
+draft: false
 ---
 
 ![ManjaroのGnome版](/images/manjaro-gnome.png)

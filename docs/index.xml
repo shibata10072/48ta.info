@@ -5,7 +5,104 @@
     <description>Recent content in 48TA.INFO on 48TA.INFO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja_JP</language>
+    <lastBuildDate>Sat, 04 May 2019 13:13:04 +0900</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Manjaro Gnome環境をつくった</title>
+      <link>https://48ta.info/posts/manjaro-gnome-2019/</link>
+      <pubDate>Sat, 04 May 2019 13:13:04 +0900</pubDate>
+      
+      <guid>https://48ta.info/posts/manjaro-gnome-2019/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://48ta.info/images/manjaro-gnome.png&#34; alt=&#34;ManjaroのGnome版&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;やったこと&#34;&gt;やったこと&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;使ってない SSD フォーマット。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://manjaro.org/download/gnome/&#34; target=&#34;_blank&#34;&gt;Manjaro Gnome Edition&lt;/a&gt;をインストール。&lt;/li&gt;
+&lt;li&gt;Manjaro Setting Tool と Gnome の設定ツールを使ってなんか色々整える。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://extensions.gnome.org/&#34; target=&#34;_blank&#34;&gt;Gnome Shell Extensions&lt;/a&gt;で足りない機能ぶっこむ。&lt;/li&gt;
+&lt;li&gt;Pacman で適当にパッケージを突っ込む。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;使ってるやつ&#34;&gt;使ってるやつ&lt;/h2&gt;
+
+&lt;h3 id=&#34;gnome-shell-extensions&#34;&gt;Gnome Shell Extensions&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Activities Configurator
+
+&lt;ul&gt;
+&lt;li&gt;アクティビティ非表示と Topbar 透明化。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Applications menu
+
+&lt;ul&gt;
+&lt;li&gt;Arc Menu でもいいんだけど、アプリ一覧だけあればいいからこっち。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Coverflow alt-tab
+
+&lt;ul&gt;
+&lt;li&gt;AltTab がオシャレになる。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Dash to Dock&lt;/li&gt;
+&lt;li&gt;Workspace to dock
+
+&lt;ul&gt;
+&lt;li&gt;ど定番定期。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Kstatusnotifieritem/appindicator support&lt;/li&gt;
+&lt;li&gt;Topicons plus
+
+&lt;ul&gt;
+&lt;li&gt;Topbar に通知追加。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;openweather
+
+&lt;ul&gt;
+&lt;li&gt;天気予報。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Pamac update indicator
+
+&lt;ul&gt;
+&lt;li&gt;パッケージ更新通知。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Native window placement&lt;/li&gt;
+&lt;li&gt;Removable drive menu&lt;/li&gt;
+&lt;li&gt;User theme&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;gnome-theme&#34;&gt;Gnome Theme&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Window Theme:Qogir&lt;/li&gt;
+&lt;li&gt;Shell Theme:Qogir&lt;/li&gt;
+&lt;li&gt;Icon:Papirus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;どれも小洒落ててかっこいい、時代は変わったんやなって。&lt;/p&gt;
+
+&lt;h2 id=&#34;所感&#34;&gt;所感&lt;/h2&gt;
+
+&lt;h3 id=&#34;arch-or-manjaro-gnome-or-deepin&#34;&gt;Arch or Manjaro,Gnome or deepin&lt;/h3&gt;
+
+&lt;p&gt;いつも Arch だったんだけど、相も変わらずアップデートで Network Manager、Gnome、X Window、Linux Kernel のどれかがぶっ壊れる感じに疲れたので、安定する Manjaro にしてみた。
+インストール馬鹿楽だし、最初から Pamac 入ってるし、Manjaro がよく使われる理由が少しわかったような気がする。&lt;/p&gt;
+
+&lt;p&gt;デスクトップ環境は、いつもの Gnome と deepin で迷った。結局安定を取って Gnome にしたんだけど、試しに使ってみた deepin のほうが綺麗だし使いやすい感。なので今度はちゃんと deepin を使ってみる予定。&lt;/p&gt;
+
+&lt;p&gt;Gnome の Extensions 前提の設計は、アップデートでバンバン死んだりするから安定しないというのもある。拡張する選択肢の多さは圧倒的に Gnome だと思うけど。&lt;/p&gt;
+
+&lt;h3 id=&#34;windows-いらなくね-いつもの&#34;&gt;Windows いらなくね？（いつもの）&lt;/h3&gt;
+
+&lt;p&gt;GW 半分くらい潰してダラダラ環境作っていたんだけど、まぁまぁ満足。&lt;br /&gt;
+ネトゲに飽きてきている → ゲームしないなら Windows いらなくね？→Linux 使うか → ついでになんか作るか&lt;br /&gt;
+という、いつものコンボで PC イジりのモチベが上昇中。俺がオタクだ。&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

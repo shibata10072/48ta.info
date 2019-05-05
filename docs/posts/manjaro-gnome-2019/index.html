@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ja_JP">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  
+  
+  
+  
+  
+  
+  
+  <link rel="canonical" href="https://48ta.info/posts/manjaro-gnome-2019/" />
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Manjaro Gnome環境をつくった | 48TA.INFO
+       
+  </title>
+  <meta name="title" content="Manjaro Gnome環境をつくった | 48TA.INFO">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Manjaro Gnome環境をつくった"/>
+<meta name="twitter:description" content="やったこと  使ってない SSD フォーマット。 Manjaro Gnome Editionをインストール。 Manjaro Setting Tool と Gnome の設定ツールを使ってなんか色々整える。 Gnome Shell Extensionsで足りない機能ぶっこむ。 Pacman で適当にパッケージを突っ込む。  使ってるやつ Gnome Shell Extensions  Activities Configurator  アクティビティ非表示と Topbar 透明化。  Applications menu  Arc Menu でもいいんだけど、アプリ一覧だけあればいいからこっち。  Coverflow alt-tab  AltTab がオシャレになる。  Dash to Dock Workspace to dock  ど定番定期。  Kstatusnotifieritem/appindicator support Topicons plus  Topbar に通知追加。  openweather  天気予報。  Pamac update indicator  パッケージ更新通知。  Native window placement Removable drive menu User theme  Gnome Theme  Window Theme:Qogir Shell Theme:Qogir Icon:Papirus  どれも小洒落ててかっこいい、時代は変わったんやなって。"/>
+
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Manjaro Gnome環境をつくった",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/48ta.info\/posts\/manjaro-gnome-2019\/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https:\/\/48ta.info\/cover.png",
+    "width":  800 ,
+    "height":  600 
+  },
+  "genre": "posts",
+  
+  "wordcount":  123 ,
+  "url": "https:\/\/48ta.info\/posts\/manjaro-gnome-2019\/",
+  "datePublished": "2019-05-04T13:13:04\x2b09:00",
+  "dateModified": "2019-05-04T13:13:04\x2b09:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "柴田 - shibata",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https:\/\/48ta.info\/logo.png",
+      "width":  127 ,
+      "height":  40 
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "柴田 - shibata"
+  },
+  "description": ""
+}
+</script>
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="https://48ta.info/">48TA.INFO</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Posts</a>
+                
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://48ta.info/">48TA.INFO</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Posts</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp">
+    <header class="post-header">
+        <h1 class="post-title">Manjaro Gnome環境をつくった</h1>
+        <div class="post-meta">
+            Written by <a href="https://48ta.info/" rel="author">柴田</a> with ♥
+                <span class="post-time">
+                    on <time datetime=2019-05-04 >2019/05/04 (Sat)</time>
+                </span>
+                in
+                
+                <i class="iconfont icon-timer"></i>
+                1 min
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="/images/manjaro-gnome.png" alt="ManjaroのGnome版" class="lazyload"><figcaption class="image-caption">ManjaroのGnome版</figcaption></figure></p>
+
+<h2 id="やったこと">やったこと</h2>
+
+<ol>
+<li>使ってない SSD フォーマット。</li>
+<li><a href="https://manjaro.org/download/gnome/" target="_blank">Manjaro Gnome Edition</a>をインストール。</li>
+<li>Manjaro Setting Tool と Gnome の設定ツールを使ってなんか色々整える。</li>
+<li><a href="https://extensions.gnome.org/" target="_blank">Gnome Shell Extensions</a>で足りない機能ぶっこむ。</li>
+<li>Pacman で適当にパッケージを突っ込む。</li>
+</ol>
+
+<h2 id="使ってるやつ">使ってるやつ</h2>
+
+<h3 id="gnome-shell-extensions">Gnome Shell Extensions</h3>
+
+<ul>
+<li>Activities Configurator
+
+<ul>
+<li>アクティビティ非表示と Topbar 透明化。</li>
+</ul></li>
+<li>Applications menu
+
+<ul>
+<li>Arc Menu でもいいんだけど、アプリ一覧だけあればいいからこっち。</li>
+</ul></li>
+<li>Coverflow alt-tab
+
+<ul>
+<li>AltTab がオシャレになる。</li>
+</ul></li>
+<li>Dash to Dock</li>
+<li>Workspace to dock
+
+<ul>
+<li>ど定番定期。</li>
+</ul></li>
+<li>Kstatusnotifieritem/appindicator support</li>
+<li>Topicons plus
+
+<ul>
+<li>Topbar に通知追加。</li>
+</ul></li>
+<li>openweather
+
+<ul>
+<li>天気予報。</li>
+</ul></li>
+<li>Pamac update indicator
+
+<ul>
+<li>パッケージ更新通知。</li>
+</ul></li>
+<li>Native window placement</li>
+<li>Removable drive menu</li>
+<li>User theme</li>
+</ul>
+
+<h3 id="gnome-theme">Gnome Theme</h3>
+
+<ul>
+<li>Window Theme:Qogir</li>
+<li>Shell Theme:Qogir</li>
+<li>Icon:Papirus</li>
+</ul>
+
+<p>どれも小洒落ててかっこいい、時代は変わったんやなって。</p>
+
+<h2 id="所感">所感</h2>
+
+<h3 id="arch-or-manjaro-gnome-or-deepin">Arch or Manjaro,Gnome or deepin</h3>
+
+<p>いつも Arch だったんだけど、相も変わらずアップデートで Network Manager、Gnome、X Window、Linux Kernel のどれかがぶっ壊れる感じに疲れたので、安定する Manjaro にしてみた。
+インストール馬鹿楽だし、最初から Pamac 入ってるし、Manjaro がよく使われる理由が少しわかったような気がする。</p>
+
+<p>デスクトップ環境は、いつもの Gnome と deepin で迷った。結局安定を取って Gnome にしたんだけど、試しに使ってみた deepin のほうが綺麗だし使いやすい感。なので今度はちゃんと deepin を使ってみる予定。</p>
+
+<p>Gnome の Extensions 前提の設計は、アップデートでバンバン死んだりするから安定しないというのもある。拡張する選択肢の多さは圧倒的に Gnome だと思うけど。</p>
+
+<h3 id="windows-いらなくね-いつもの">Windows いらなくね？（いつもの）</h3>
+
+<p>GW 半分くらい潰してダラダラ環境作っていたんだけど、まぁまぁ満足。<br />
+ネトゲに飽きてきている → ゲームしないなら Windows いらなくね？→Linux 使うか → ついでになんか作るか<br />
+という、いつものコンボで PC イジりのモチベが上昇中。俺がオタクだ。</p>
+
+    </div>
+
+    <div class="post-copyright">
+            
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>柴田 </span>
+                </p>
+            
+
+            <p class="copyright-item">
+                    <span>Words:</span>
+                   <span>123</span>
+            </p>
+
+            <p class="copyright-item">
+                
+                <span>Share:</span>
+                <span>
+
+      
+        <a href="//twitter.com/share?url=https%3a%2f%2f48ta.info%2fposts%2fmanjaro-gnome-2019%2f&amp;text=Manjaro%20Gnome%e7%92%b0%e5%a2%83%e3%82%92%e3%81%a4%e3%81%8f%e3%81%a3%e3%81%9f&amp;via=shibata0321" target="_blank" title="Share on Twitter">
+          <i class="iconfont icon-twitter"></i>
+        </a>
+        
+      
+      
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2f48ta.info%2fposts%2fmanjaro-gnome-2019%2f" target="_blank" title="Share on Facebook">
+          <i class="iconfont icon-facebook"></i>
+        </a>
+        
+      
+      
+      
+      
+      
+      
+        
+      
+        
+      
+
+          
+
+          
+
+          
+
+          
+</span>
+            </p>
+                       
+
+            
+    </div>
+
+
+    <div class="post-tags">
+        
+        <section>
+                <a href="javascript:window.history.back();">Back</a></span> ·
+                <span><a href="https://48ta.info/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        
+    </div>
+
+    <div class="post-comment">
+          
+          
+  
+
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2016 - 2019</span>
+        
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://48ta.info/">柴田</a> | </span>
+         
+
+		  <span>Crafted with ❤️ by <a href="https://github.com/Fastbyte01/KeepIt" target="_blank" rel="external nofollow noopener noreffer">KeepIt</a> & <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a></span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.12/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-139630213-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+     </div>
+  </body>
+</html>

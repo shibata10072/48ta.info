@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 48TA.INFO</title>
+    <link>https://48ta.info/posts/</link>
+    <description>Recent content in Posts on 48TA.INFO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja_JP</language>
+    <lastBuildDate>Sat, 04 May 2019 13:13:04 +0900</lastBuildDate>
+    
+	<atom:link href="https://48ta.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Manjaro Gnome環境をつくった</title>
+      <link>https://48ta.info/posts/manjaro-gnome-2019/</link>
+      <pubDate>Sat, 04 May 2019 13:13:04 +0900</pubDate>
+      
+      <guid>https://48ta.info/posts/manjaro-gnome-2019/</guid>
+      <description>やったこと  使ってない SSD フォーマット。 Manjaro Gnome Editionをインストール。 Manjaro Setting Tool と Gnome の設定ツールを使ってなんか色々整える。 Gnome Shell Extensionsで足りない機能ぶっこむ。 Pacman で適当にパッケージを突っ込む。  使ってるやつ Gnome Shell Extensions  Activities Configurator  アクティビティ非表示と Topbar 透明化。  Applications menu  Arc Menu でもいいんだけど、アプリ一覧だけあればいいからこっち。  Coverflow alt-tab  AltTab がオシャレになる。  Dash to Dock Workspace to dock  ど定番定期。  Kstatusnotifieritem/appindicator support Topicons plus  Topbar に通知追加。  openweather  天気予報。  Pamac update indicator  パッケージ更新通知。  Native window placement Removable drive menu User theme  Gnome Theme  Window Theme:Qogir Shell Theme:Qogir Icon:Papirus  どれも小洒落ててかっこいい、時代は変わったんやなって。</description>
+    </item>
+    
+  </channel>
+</rss>

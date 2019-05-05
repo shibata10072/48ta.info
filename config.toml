@@ -4,7 +4,7 @@ title = "48TA.INFO"
 theme = "keepit"
 
 publishDir = "docs"
-canonifyurls = true
+canonifyurls = false
 
 paginate = 10
 enableEmoji = true
@@ -23,7 +23,7 @@ disqusShortname = ""
   noreferrerLinks = false
 
 [Permalinks]
-  posts = "/:filename/"
+  posts = "/posts/:filename/"
 
 [menu]
   [[menu.main]]
