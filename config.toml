@@ -1,4 +1,4 @@
-baseURL = "http://48ta.info/"
+baseURL = "https://48ta.info/"
 languageCode = "ja_JP"
 title = "48TA.INFO"
 theme = "keepit"
@@ -47,7 +47,7 @@ disqusShortname = ""
     avatar = "icon.png" #comment it to use gravatar
     socialShare = true
 
-    description = "IT業界で一番必要な能力は根性" # site description
+    description = "労働、根性、接待" # site description
     keywords = "48TA 48TA.info 柴田 shibata" # site keywords
     license= ''
 
