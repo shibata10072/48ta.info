@@ -6,10 +6,33 @@
     <description>Recent content in Posts on 48TA.INFO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja_JP</language>
-    <lastBuildDate>Sat, 04 May 2019 13:13:04 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 21:47:12 +0900</lastBuildDate>
     
 	<atom:link href="https://48ta.info/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>エンジニアと一般人の違い</title>
+      <link>https://48ta.info/posts/poem-engineer-other/</link>
+      <pubDate>Tue, 11 Jun 2019 21:47:12 +0900</pubDate>
+      
+      <guid>https://48ta.info/posts/poem-engineer-other/</guid>
+      <description>ポエム書きます Laradock のビルドが長すぎて暇なので、ポエムを書きます。
+エンジニアと一般人の違い 根本的な違い エンジニアと呼ばれる仕事をして７年になるのですが、ここ１年の間、初めてエンジニア以外の人たちと仕事をしていました。
+細かい視点の違いは色々感じたのですが、根本的な違いは動作原理に興味がないだけです。色々違いはあるのですが、元をたどれば全部これだと思います。
+まぁ当たり前といえば当たり前で、僕も他職種の原理に興味ありません。貸借対照表とかしらんがな。
+忘れがちだけど重要なこと 原理に興味がないので、中身がどんだけレガシーでクソであろうとメリットがデメリットを上回れば食いつきます。
+良い例が RPA（笑）で、あんなん１０年以上前に MMO でやってた BOT と同じなのですが、わかりやすく人件費を削れるもんだから現場も経営陣も恐ろしいほどの食いつきを見せます。
+この「利用者から見たメリット＞デメリット」の原則は少し考えればわかることなのですが、エンジニアというクソみたいに理屈が求められる仕事をしていると忘れがちなので、たまに思い返しましょう。
+売れるかどうかに動作原理は関係ありません。中身ゴミを高い金で売りつけることを意識しておくと、ビジネスチャンスに繋がるかもしれません。
+その他細かい違い ビジネスチャンス探すのが好き エンジニアより金稼ぎに対する意識が高い気がします。
+エンジニアは「能力を金に換算する」という考え方なので、アイデアと視点で金を稼ぐという意識が薄いかもしれません。
+横文字が好き なんとなく横文字を使うと流行に乗れている気がするのか、エンジニアより横文字が好きです。
+AI、Big Data、KPI あたり、二度と出てくるな。
+テレビが好き エンジニアのテレビ見ない率、尋常じゃない。
+一緒に呑み会すると楽しい 楽しい。
+可愛い子が多い 営業やってる人はだいたい可愛い。</description>
+    </item>
     
     <item>
       <title>Manjaro Gnome環境の構築</title>

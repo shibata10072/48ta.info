@@ -5,8 +5,65 @@
     <description>Recent content in 48TA.INFO on 48TA.INFO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja_JP</language>
-    <lastBuildDate>Sat, 04 May 2019 13:13:04 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 21:47:12 +0900</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>エンジニアと一般人の違い</title>
+      <link>https://48ta.info/posts/poem-engineer-other/</link>
+      <pubDate>Tue, 11 Jun 2019 21:47:12 +0900</pubDate>
+      
+      <guid>https://48ta.info/posts/poem-engineer-other/</guid>
+      <description>
+
+&lt;h2 id=&#34;ポエム書きます&#34;&gt;ポエム書きます&lt;/h2&gt;
+
+&lt;p&gt;Laradock のビルドが長すぎて暇なので、ポエムを書きます。&lt;/p&gt;
+
+&lt;h2 id=&#34;エンジニアと一般人の違い&#34;&gt;エンジニアと一般人の違い&lt;/h2&gt;
+
+&lt;h3 id=&#34;根本的な違い&#34;&gt;根本的な違い&lt;/h3&gt;
+
+&lt;p&gt;エンジニアと呼ばれる仕事をして７年になるのですが、ここ１年の間、初めてエンジニア以外の人たちと仕事をしていました。&lt;/p&gt;
+
+&lt;p&gt;細かい視点の違いは色々感じたのですが、根本的な違いは&lt;strong&gt;動作原理に興味がない&lt;/strong&gt;だけです。色々違いはあるのですが、元をたどれば全部これだと思います。&lt;/p&gt;
+
+&lt;p&gt;まぁ当たり前といえば当たり前で、僕も他職種の原理に興味ありません。貸借対照表とかしらんがな。&lt;/p&gt;
+
+&lt;h3 id=&#34;忘れがちだけど重要なこと&#34;&gt;忘れがちだけど重要なこと&lt;/h3&gt;
+
+&lt;p&gt;原理に興味がないので、中身がどんだけレガシーでクソであろうと&lt;strong&gt;メリットがデメリットを上回れば食いつきます。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;良い例が RPA（笑）で、あんなん１０年以上前に MMO でやってた BOT と同じなのですが、わかりやすく人件費を削れるもんだから現場も経営陣も恐ろしいほどの食いつきを見せます。&lt;/p&gt;
+
+&lt;p&gt;この「利用者から見たメリット＞デメリット」の原則は少し考えればわかることなのですが、エンジニアというクソみたいに理屈が求められる仕事をしていると忘れがちなので、たまに思い返しましょう。&lt;br /&gt;
+売れるかどうかに動作原理は関係ありません。中身ゴミを高い金で売りつけることを意識しておくと、ビジネスチャンスに繋がるかもしれません。&lt;/p&gt;
+
+&lt;h2 id=&#34;その他細かい違い&#34;&gt;その他細かい違い&lt;/h2&gt;
+
+&lt;h3 id=&#34;ビジネスチャンス探すのが好き&#34;&gt;ビジネスチャンス探すのが好き&lt;/h3&gt;
+
+&lt;p&gt;エンジニアより金稼ぎに対する意識が高い気がします。&lt;br /&gt;
+エンジニアは「能力を金に換算する」という考え方なので、アイデアと視点で金を稼ぐという意識が薄いかもしれません。&lt;/p&gt;
+
+&lt;h3 id=&#34;横文字が好き&#34;&gt;横文字が好き&lt;/h3&gt;
+
+&lt;p&gt;なんとなく横文字を使うと流行に乗れている気がするのか、エンジニアより横文字が好きです。&lt;br /&gt;
+AI、Big Data、KPI あたり、二度と出てくるな。&lt;/p&gt;
+
+&lt;h3 id=&#34;テレビが好き&#34;&gt;テレビが好き&lt;/h3&gt;
+
+&lt;p&gt;エンジニアのテレビ見ない率、尋常じゃない。&lt;/p&gt;
+
+&lt;h3 id=&#34;一緒に呑み会すると楽しい&#34;&gt;一緒に呑み会すると楽しい&lt;/h3&gt;
+
+&lt;p&gt;楽しい。&lt;/p&gt;
+
+&lt;h3 id=&#34;可愛い子が多い&#34;&gt;可愛い子が多い&lt;/h3&gt;
+
+&lt;p&gt;営業やってる人はだいたい可愛い。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Manjaro Gnome環境の構築</title>
